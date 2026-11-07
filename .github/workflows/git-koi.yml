@@ -21,7 +21,7 @@ jobs:
         uses: yalongwastaken/git-koi@main
         with:
           login: 'tanayshah08118-ship-it'
-          body: 'nord'
+          body: 'gold'
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push Changes
