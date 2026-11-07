@@ -16,11 +16,15 @@ jobs:
       - name: Generate Git Profile Koi
         uses: yalongwastaken/git-koi@main
         with:
-          # Change this to your exact GitHub Username inside the quotes
-          username: 'tanayshah08118-ship-it'
-          theme: 'nord'
-          speed: 1.5
-          background: 'dark'
+          # Use 'login' instead of username
+          login: 'tanayshah08118-ship-it'
+          
+          # Use 'body' to change the colors (options: classic, nord, dracula, sunset)
+          body: 'nord'
+          
+          # Provide your authentication token so it can read your profile stats
+          token: ${{ secrets.GITHUB_TOKEN }}
+
           
       - name: Commit and Push Changes
         run: |
