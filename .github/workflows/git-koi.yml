@@ -29,6 +29,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git switch main || git checkout main
-          git add README.md
-          git commit -m "Update profile koi" || exit 0
+          git add .
+          git commit -m "Update profile koi assets" || exit 0
           git push origin main
