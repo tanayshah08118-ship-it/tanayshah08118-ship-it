@@ -1,7 +1,6 @@
-## Hi there 👋
-
-
+Hi there 👋
 ![My Git Koi](./koi.gif)
+
 
 
 <!-- git-koi-start -->
