@@ -1,0 +1,28 @@
+name: Generate Git Koi
+
+on:
+  schedule:
+    # Runs every day at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Git Profile Koi
+        uses: andy7401/git-profile-koi@v1
+        with:
+          # Change this to your exact GitHub Username inside the quotes
+          username: 'tanayshah08118-ship-it'
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update profile koi" || exit 0
+          git push
