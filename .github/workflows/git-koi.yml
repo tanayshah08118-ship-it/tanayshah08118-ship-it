@@ -5,7 +5,6 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
-# ADD THESE 3 LINES RIGHT HERE:
 permissions:
   contents: write
 
@@ -15,6 +14,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate Git Profile Koi
         uses: yalongwastaken/git-koi@main
@@ -27,6 +28,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git switch main || git checkout main
           git add README.md
           git commit -m "Update profile koi" || exit 0
-          git push
+          git push origin main
