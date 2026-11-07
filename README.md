@@ -1,5 +1,7 @@
-Hi there 👋
-![My Git Koi](./koi.gif)
+## Hi there 👋
+
+![My Git Koi](./koi/koi.gif)
+
 
 
 
