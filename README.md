@@ -1,4 +1,4 @@
-## Hi there 👋
+
 
 ![My Git Koi](./koi/koi.gif)
 
