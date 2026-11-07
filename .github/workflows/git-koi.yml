@@ -18,7 +18,10 @@ jobs:
         with:
           # Change this to your exact GitHub Username inside the quotes
           username: 'tanayshah08118-ship-it'
-
+          theme: 'nord'
+          speed: 1.5
+          background: 'dark'
+          
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
