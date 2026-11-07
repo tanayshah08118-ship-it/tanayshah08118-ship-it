@@ -1,4 +1,5 @@
 ## Hi there 👋
+![My Git Koi](./git-koi.svg)
 <!-- git-koi-start -->
 <!-- git-koi-end -->
 
