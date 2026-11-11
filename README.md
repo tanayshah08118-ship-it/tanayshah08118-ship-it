@@ -63,4 +63,4 @@ Here are some ideas to get you started:
 
 <a href="https://github.com/tanayshah08118-ship-it">GitHub</a>
 
-<p align="center"><sub>Tanay Shah  · Creative portfolio generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+<p align="center"><sub>Tanay Shah  ·</sub></p>
