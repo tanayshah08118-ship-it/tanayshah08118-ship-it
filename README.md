@@ -54,7 +54,7 @@ Here are some ideas to get you started:
 
 <a href="https://github.com/tanayshah08118-ship-it">GitHub</a>
 
-<p align="center"><sub>Tanay Shah  ·</sub></p>
+<p align="center"><sub>Tanay Shah's Koi ·</sub></p>
 
 
 
