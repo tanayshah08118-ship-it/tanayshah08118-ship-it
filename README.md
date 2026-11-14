@@ -1,13 +1,4 @@
 
-
-![My Git Koi](./koi/koi.gif)
-
-
-
-
-<!-- git-koi-start -->
-<!-- git-koi-end -->
-
 <!--
 **tanayshah08118-ship-it/tanayshah08118-ship-it** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -64,3 +55,13 @@ Here are some ideas to get you started:
 <a href="https://github.com/tanayshah08118-ship-it">GitHub</a>
 
 <p align="center"><sub>Tanay Shah  ·</sub></p>
+
+
+
+![My Git Koi](./koi/koi.gif)
+
+
+
+
+<!-- git-koi-start -->
+<!-- git-koi-end -->
